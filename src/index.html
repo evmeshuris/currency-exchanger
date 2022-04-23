@@ -1,0 +1,34 @@
+<html lang="en-US">
+
+<head>
+  <title>Currency Exchanger</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Get exchange rate</h1>
+    <form>
+      <label>
+        Dollar Amount
+        <input id="amount" name="amount" type="number" placeholder="Dollar Amount" />
+      </label>
+      <label>
+        Currency
+      </label>
+      <select name="currency" id="currency">
+        <option value="AUD">AUD</option>
+        <option value="CAD">CAD</option>
+        <option value="EUR">EUR</option>
+        <option value="CNY">CNY</option>
+        <option value="RUB">RUB</option>
+      </select>
+
+      <button class="btn-success" id="rate">Get rate</button>
+    </form>
+
+    <div id="showErrors"></div>
+    <div id="showCurrency"></div>
+  </div>
+</body>
+
+</html>
